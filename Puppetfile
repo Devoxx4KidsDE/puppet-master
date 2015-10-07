@@ -18,6 +18,6 @@ mod 'd4k/client',
   :ref => 'master'
 
 # d4k maze-vr workshop module
-mod 'd4k/maze-vr',
+mod 'd4k/maze_vr',
   :git => 'git@localhost:puppet/puppet-workshop-maze-vr.git',
   :ref => 'master'
