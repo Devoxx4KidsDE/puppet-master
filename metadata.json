@@ -1,0 +1,14 @@
+{
+  "name": "d4k-puppetmaster",
+  "version": "0.1.0",
+  "author": "Tobias Schneider <schneider@synyx.de>",
+  "summary": "Puppet master for d4k clients",
+  "license": "",
+  "source": "git@github.com:Devoxx4KidsDE/puppet-master.git",
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">=3.0.0"
+    }
+  ]
+}
