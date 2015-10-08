@@ -7,6 +7,7 @@ forge "https://forgeapi.puppetlabs.com"
 ## Puppetlabs supported modules
 mod 'puppetlabs/vcsrepo', '1.3.1'
 mod 'willdurand/nodejs', '1.8.5'
+mod 'nervo/keyboard', '0.0.1'
 
 ###################
 ## d4k modules ##
