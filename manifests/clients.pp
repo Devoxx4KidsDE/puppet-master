@@ -1,4 +1,4 @@
-node 'd4k-1' {
+node /^d4k-\d+$/ {
   include client
   include maze_vr
 }
