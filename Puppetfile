@@ -15,7 +15,7 @@ mod 'nervo/keyboard', '0.0.1'
 ###################
 
 # d4k client module
-mod 'client',
+mod 'd4k/client',
   :git => 'git@localhost:puppet/puppet-client.git',
   :ref => 'master'
 
