@@ -13,8 +13,16 @@ mod 'nervo/keyboard', '0.0.1'
 mod 'maestrodev/wget', '1.7.1'
 mod 'saz/resolv_conf', '3.0.5'
 
+####################
+## GitHub modules ##
+####################
+
+mod 'blt/puppet-ssh',
+  :git => 'https://github.com/blt/puppet-ssh.git',
+  :ref => 'master'
+
 ###################
-## d4k modules ##
+##  d4k modules  ##
 ###################
 
 # d4k client module
