@@ -1,4 +1,6 @@
 node /^d4k-\d+$/ {
-  include client
-  include maze_vr
+  class { 'client':
+  } ->
+  class { 'maze_vr':
+  }
 }
