@@ -17,7 +17,7 @@ mod 'saz/resolv_conf', '3.0.5'
 ## GitHub modules ##
 ####################
 
-mod 'blt/puppet-ssh',
+mod 'blt/ssh',
   :git => 'https://github.com/blt/puppet-ssh.git',
   :ref => 'master'
 
