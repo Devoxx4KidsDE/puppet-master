@@ -32,3 +32,8 @@ mod 'd4k/client',
 mod 'd4k/maze_vr',
   :git => 'git@localhost:puppet/puppet-workshop-maze-vr.git',
   :ref => 'master'
+
+# d4k minecraft modding raspberry pi workshop module
+mod 'd4k/ws_minecraft',
+  :git => 'git@localhost:puppet/puppet-workshop-minecraft-modding-raspberry-pi.git',
+  :ref => 'master'
