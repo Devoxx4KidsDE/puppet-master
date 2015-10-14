@@ -8,6 +8,7 @@ forge "https://forgeapi.puppetlabs.com"
 mod 'puppetlabs/stdlib', '4.9.0'
 mod 'puppetlabs/apt', '2.2.0'
 mod 'puppetlabs/vcsrepo', '1.3.1'
+mod 'puppetlabs/puppetlabs-java', '1.4.2'
 mod 'nervo/keyboard', '0.0.1'
 mod 'maestrodev/wget', '1.7.1'
 
@@ -36,4 +37,9 @@ mod 'd4k/maze_vr',
 # d4k minecraft modding raspberry pi workshop module
 mod 'd4k/ws_minecraft',
   :git => 'git@localhost:puppet/puppet-workshop-minecraft-modding-raspberry-pi.git',
+  :ref => 'master'
+  
+# d4k jumping sumo workshop module
+mod 'd4k/ws_jumping_sumo',
+  :git => 'git@localhost:puppet/puppet-workshop-jumping-sumo.git',
   :ref => 'master'
