@@ -1,8 +1,6 @@
 node /^d4k-\d+$/ {
-  class { 'client':
-  } ->
-  class { 'maze_vr':
-  } ->
-  class { 'ws_minecraft':
-  }
+  class { 'client': } ->
+  class { 'maze_vr': } ->
+  class { 'ws_minecraft': } ->
+  class { 'ws_jumping_sumo': }
 }
