@@ -10,7 +10,6 @@ mod 'puppetlabs/apt', '2.2.0'
 mod 'puppetlabs/vcsrepo', '1.3.1'
 mod 'nervo/keyboard', '0.0.1'
 mod 'maestrodev/wget', '1.7.1'
-mod 'saz/resolv_conf', '3.0.5'
 
 ####################
 ## GitHub modules ##
