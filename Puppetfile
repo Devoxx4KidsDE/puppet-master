@@ -42,3 +42,8 @@ mod 'd4k/ws_minecraft',
 mod 'd4k/ws_jumping_sumo',
   :git => 'git@localhost:puppet/puppet-workshop-jumping-sumo.git',
   :ref => 'master'
+
+# d4k tinkerforge workshop module
+mod 'd4k/ws_tinkerforge',
+  :git => 'git@localhost:puppet/puppet-workshop-tinkerforge.git',
+  :ref => 'master'

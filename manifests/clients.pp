@@ -14,5 +14,6 @@ node d4k-9, d4k-10, d4k-11, d4k-12 {
 }
 
 node d4k-13, d4k-14, d4k-15, d4k-16 {
-  class { 'client': }
+  class { 'client': } ->
+  class { 'ws_tinkerforge': }
 }
