@@ -5,7 +5,7 @@ node d4k-1, d4k-2, d4k-3, d4k-4 {
 
 node d4k-5, d4k-6, d4k-7, d4k-8 {
   class { 'd4k::client': } ->
-  class { 'd4k::workshop_minecraft': }
+  class { 'd4k::workshop_minecraft_collect_game': }
 }
 
 node d4k-9, d4k-10, d4k-11, d4k-12 {
