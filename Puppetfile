@@ -16,7 +16,9 @@ mod 'maestrodev/wget', '1.7.1'
 ####################
 
 mod 'blt/ssh',
-  :git => 'https://github.com/blt/puppet-ssh.git',
+# use synyx-fork because of puppet4-readiness
+#  :git => 'https://github.com/blt/puppet-ssh.git',
+  :git => 'https://github.com/synyx/puppet-ssh.git',
   :ref => 'master'
 
 ###################
